@@ -1,0 +1,120 @@
+/**
+ * Institutional Kitchen & Food Processing Unit Inventory Data
+ * Columns: Food Item | Available Quantity | Expected Requirement | Surplus | Expiry/Available Until | Status
+ * Statuses: Normal | Surplus | Urgent
+ */
+
+export const INITIAL_INVENTORY = [
+  {
+    id: "INV-01",
+    item: "Steamed Basmati Rice",
+    category: "Cooked Meals",
+    availableQty: 100,
+    requiredQty: 70,
+    surplusQty: 30,
+    unit: "kg",
+    availableUntil: "8 hrs",
+    shelfLifeTimestamp: "Today, 10:00 PM",
+    status: "Surplus",
+    source: "Apex Campus Central Mess",
+    location: "Block C Dining Hall",
+    prepTime: "Today, 1:30 PM",
+    storageCondition: "Hot-holding >60°C"
+  },
+  {
+    id: "INV-02",
+    item: "Mixed Seasonal Vegetables (Curry)",
+    category: "Cooked Meals",
+    availableQty: 50,
+    requiredQty: 35,
+    surplusQty: 15,
+    unit: "kg",
+    availableUntil: "5 hrs",
+    shelfLifeTimestamp: "Today, 7:30 PM",
+    status: "Urgent",
+    source: "Apex Campus Central Mess",
+    location: "Block C Dining Hall",
+    prepTime: "Today, 2:00 PM",
+    storageCondition: "Hot-holding >60°C"
+  },
+  {
+    id: "INV-03",
+    item: "Yellow Dal Tadka",
+    category: "Cooked Meals",
+    availableQty: 40,
+    requiredQty: 38,
+    surplusQty: 2,
+    unit: "kg",
+    availableUntil: "2 days",
+    shelfLifeTimestamp: "Day after tomorrow",
+    status: "Normal",
+    source: "Apex Campus Central Mess",
+    location: "Block C Dining Hall",
+    prepTime: "Today, 12:30 PM",
+    storageCondition: "Refrigerated <4°C"
+  },
+  {
+    id: "INV-04",
+    item: "Whole Wheat Chapatis / Rotis",
+    category: "Breads",
+    availableQty: 450,
+    requiredQty: 320,
+    surplusQty: 130,
+    unit: "units",
+    availableUntil: "6 hrs",
+    shelfLifeTimestamp: "Today, 8:30 PM",
+    status: "Surplus",
+    source: "Apex Campus Central Mess",
+    location: "Bakery / Bread Counter",
+    prepTime: "Today, 2:15 PM",
+    storageCondition: "Insulated hot bins"
+  },
+  {
+    id: "INV-05",
+    item: "Farm-Fresh Tomatoes",
+    category: "Raw Produce",
+    availableQty: 80,
+    requiredQty: 50,
+    surplusQty: 30,
+    unit: "kg",
+    availableUntil: "3 days",
+    shelfLifeTimestamp: "In 72 hours",
+    status: "Normal",
+    source: "Commissary Central Store",
+    location: "Produce Bay A",
+    prepTime: "Received today",
+    storageCondition: "Dry ambient storage"
+  },
+  {
+    id: "INV-06",
+    item: "Pasteurized Dairy Paneer",
+    category: "Dairy & Perishables",
+    availableQty: 35,
+    requiredQty: 22,
+    surplusQty: 13,
+    unit: "kg",
+    availableUntil: "4 hrs",
+    shelfLifeTimestamp: "Tonight, 6:00 PM",
+    status: "Urgent",
+    source: "Apex Campus Central Mess",
+    location: "Walk-in Chiller #1",
+    prepTime: "Opened this morning",
+    storageCondition: "Chilled 2°C – 4°C"
+  },
+  {
+    id: "INV-07",
+    item: "Artisan Multigrain Bread Loaves",
+    category: "Bakery",
+    availableQty: 60,
+    requiredQty: 35,
+    surplusQty: 25,
+    unit: "units",
+    availableUntil: "12 hrs",
+    shelfLifeTimestamp: "Tomorrow, 8:00 AM",
+    status: "Surplus",
+    source: "Bakery Processing Unit #2",
+    location: "Packaging Section",
+    prepTime: "Today, 8:00 AM",
+    storageCondition: "Ambient dry room"
+  }
+];
