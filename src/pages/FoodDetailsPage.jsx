@@ -27,7 +27,7 @@ export default function FoodDetailsPage() {
 
   const [passportOpen, setPassportOpen] = useState(false);
 
-  // Exact fields specified in Problem Statement 26234
+  // Food item specifications
   const foodData = {
     food: selectedFoodItem?.item || 'Cooked Rice',
     quantity: `${selectedFoodItem?.surplusQty || 30} ${selectedFoodItem?.unit || 'kg'}`,
@@ -175,7 +175,7 @@ export default function FoodDetailsPage() {
         onClose={() => setPassportOpen(false)}
         item={{
           title: foodData.food,
-          id: 'PASSPORT-26234',
+          id: 'PASSPORT-FB-01',
           provider: { name: foodData.source },
           storageType: 'Hot-holding >60°C',
           preparedTime: 'Today, 1:30 PM',

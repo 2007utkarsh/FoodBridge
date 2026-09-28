@@ -20,7 +20,7 @@ export const ApiService = {
   // 1. Inventory & Surplus Detection
   async getInventory() {
     await delay(SIMULATED_LATENCY_MS);
-    const local = localStorage.getItem('ps26234_inventory');
+    const local = localStorage.getItem('foodbridge_inventory');
     return local ? JSON.parse(local) : INITIAL_INVENTORY;
   },
 
@@ -34,7 +34,7 @@ export const ApiService = {
       status: Number(item.availableQty) > Number(item.requiredQty) ? 'Surplus' : 'Normal'
     };
     const updated = [newItem, ...current];
-    localStorage.setItem('ps26234_inventory', JSON.stringify(updated));
+    localStorage.setItem('foodbridge_inventory', JSON.stringify(updated));
     return newItem;
   },
 
@@ -53,7 +53,7 @@ export const ApiService = {
   // 4. Redistribution & Handover Lifecycle
   async getRedistributions() {
     await delay(SIMULATED_LATENCY_MS);
-    const local = localStorage.getItem('ps26234_redistributions');
+    const local = localStorage.getItem('foodbridge_redistributions');
     return local ? JSON.parse(local) : INITIAL_REDISTRIBUTIONS;
   },
 
@@ -70,7 +70,7 @@ export const ApiService = {
       }
       return r;
     });
-    localStorage.setItem('ps26234_redistributions', JSON.stringify(updated));
+    localStorage.setItem('foodbridge_redistributions', JSON.stringify(updated));
     return updated.find(r => r.id === id);
   },
 
@@ -105,7 +105,7 @@ export const ApiService = {
       }
     };
     const updated = [newRed, ...all];
-    localStorage.setItem('ps26234_redistributions', JSON.stringify(updated));
+    localStorage.setItem('foodbridge_redistributions', JSON.stringify(updated));
     return newRed;
   },
 

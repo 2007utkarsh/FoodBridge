@@ -1,6 +1,6 @@
 /**
  * AI-Based Recipient Matching Prototype Data
- * Specifically aligned with Problem Statement 26234 requirements:
+ * Aligned with FoodBridge redistribution requirements:
  *
  * Example:
  * SURPLUS: 30 kg Rice

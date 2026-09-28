@@ -39,7 +39,7 @@ export default function LeafletMapView({
 
       // Attribution small control
       L.control.attribution({ position: 'bottomright', prefix: false })
-        .addAttribution('OpenStreetMap | FoodBridge PS26234')
+        .addAttribution('OpenStreetMap | FoodBridge')
         .addTo(map);
 
       const layerGroup = L.layerGroup().addTo(map);

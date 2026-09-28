@@ -29,7 +29,7 @@ export default function SmartSurplusAnalysisPage() {
         <div className="space-y-2">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-bold border border-emerald-500/30">
             <Sparkles className="w-3.5 h-3.5" />
-            <span>Problem Statement 26234 AI Intelligence</span>
+            <span>AI Predictive Surplus Engine</span>
           </div>
           <h1 className="text-2xl sm:text-3xl font-black">
             Smart Surplus Analysis Engine

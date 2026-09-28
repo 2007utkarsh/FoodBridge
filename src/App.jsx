@@ -3,7 +3,7 @@ import { FoodBridgeProvider, useFoodBridge } from './context/FoodBridgeContext';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 
-// 12 PS26234 Specification Pages
+// 12 FoodBridge Specification Pages
 import LandingPage from './pages/LandingPage';
 import FoodSourceDashboardPage from './pages/FoodSourceDashboardPage';
 import InventoryPage from './pages/InventoryPage';

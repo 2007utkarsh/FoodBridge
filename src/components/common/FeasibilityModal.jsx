@@ -156,7 +156,7 @@ export default function FeasibilityModal({ isOpen, onClose }) {
                 Executive Feasibility Conclusion: Fully Feasible with High Commercial Viability
               </p>
               <p className="text-emerald-800 leading-relaxed">
-                All 8 requirements in the problem statement are technically and economically feasible using existing commercial technologies. In our current prototype, all predictive algorithms, computer vision quality inspectors, multi-stop route optimizers, IoT telemetries, and ESG audit calculators are fully functional and interactive.
+                All 8 core ecosystem requirements are technically and economically feasible using existing commercial technologies. In our current prototype, all predictive algorithms, computer vision quality inspectors, multi-stop route optimizers, IoT telemetries, and ESG audit calculators are fully functional and interactive.
               </p>
             </div>
           </div>

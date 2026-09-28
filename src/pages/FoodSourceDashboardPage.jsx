@@ -37,7 +37,7 @@ export default function FoodSourceDashboardPage() {
     setSelectedFoodItem
   } = useFoodBridge();
 
-  // Metrics requested in Problem Statement 26234
+  // Key Food Source Metrics
   const metrics = {
     processed: 1420,
     inventory: 780,

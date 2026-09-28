@@ -62,7 +62,7 @@ export default function AdminDashboardPage() {
         <div>
           <div className="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-full bg-purple-500/20 text-purple-300 text-xs font-bold border border-purple-500/40 mb-1">
             <Layers className="w-3.5 h-3.5" />
-            <span>Problem Statement 26234 Administration</span>
+            <span>Central Platform Administration</span>
           </div>
           <h1 className="text-2xl sm:text-3xl font-black">
             Admin Dashboard

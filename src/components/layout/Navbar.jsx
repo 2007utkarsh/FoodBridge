@@ -135,7 +135,7 @@ export default function Navbar() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
             </span>
-            <span className="text-slate-300 hidden sm:inline">PS26234 Ecosystem:</span>
+            <span className="text-slate-300 hidden sm:inline">Live Ecosystem:</span>
             <span className="text-emerald-400 font-medium">386 kg Rescued &bull; 12 NGOs Active</span>
           </div>
 
@@ -231,9 +231,6 @@ export default function Navbar() {
                   <span className="font-extrabold text-xl tracking-tight text-slate-900 group-hover:text-emerald-700 transition-colors">
                     Food<span className="text-emerald-600">Bridge</span>
                   </span>
-                  <span className="px-1.5 py-0.2 text-[9px] font-black uppercase tracking-wider bg-emerald-100 text-emerald-800 rounded">
-                    PS26234
-                  </span>
                 </div>
                 <p className="text-[10px] text-slate-500 font-medium -mt-1 hidden sm:block">
                   AI Food Waste & Redistribution
@@ -302,7 +299,7 @@ export default function Navbar() {
                 {allPagesMenuOpen && (
                   <div className="absolute right-0 mt-2 w-72 bg-white rounded-2xl shadow-xl border border-slate-200 p-2 z-50 animate-in fade-in slide-in-from-top-2">
                     <div className="px-3 py-2 text-[10px] font-bold text-slate-400 uppercase tracking-wider border-b border-slate-100">
-                      PS26234 Specification Pages
+                      Platform Modules & Pages
                     </div>
                     <div className="space-y-0.5 mt-1 max-h-80 overflow-y-auto">
                       {all12Pages.map((page) => (
